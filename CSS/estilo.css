@@ -2,8 +2,12 @@
 
 
 body{overflow-x: hidden;background-color:#FFF; }
-.wrap{ width: 90%; margin 0 auto;}
+.wrap{ width: 100%; margin: 0 auto;}
 .logo{position: relative;float: left;}
+.logo:hover{opacity: 0.8;transition: opacity ease-in 0.3s;}
+
+
+ 
 .barra{
 	position:relative;
 	top:8%;
@@ -30,10 +34,32 @@ a.link{
 
 
 
+
+
 a:active.link{color: #0038ff;}
 a:hover.link{
 	color:  	#0038ff;
 	transition: color 0.3s ease-in-out;
 	
 }
+.fundo{
+width: 100%;
+height: 500px;
+position: absolute;
+top:20%;
+right: 0;
+border: thin outset #000000;
+}
+.destaque{
+
+position: absolute;
+top: 110%;
+left: 25%;
+
+
+
+}
+.destaque-lista{list-style: none;}	
+.destaque-lista li{display: inline-block;padding-right: 250px;}
+
 
