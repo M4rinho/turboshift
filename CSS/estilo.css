@@ -1,100 +1,39 @@
 *{margin:0;padding:0; }
 
 
-body{overflow-x: hidden;background-color:#FAFFFA; }
-#barra1{
-	      position: fixed;
-		   z-index:1;
-		   overflow: hidden;
-			padding-top: 0px;
-			
-			margin-left: 0px;
-			 
-			list-style: none;
-			background-color: #333;
-			position:absolute;
-			width: 100%;
-			height: 8%;
-			
-			
-			
-		   
-			
-			
-			
-		}
+body{overflow-x: hidden;background-color:#FFF; }
+.wrap{ width: 90%; margin 0 auto;}
+.logo{position: relative;float: left;}
+.barra{
+	position:relative;
+	top:8%;
+   list-style: none;
+   float: right;
+   right: 5%;
+   border-bottom: medium dashed #333;
 
-#barra1 ul li{display:inline-block; }
+}
 
-
-
-
-
-#barra1 ul li a{	
-        
-         
-         padding: 20px 30px;
-         
-			display:inline-block;
-			 
-		 
-			color: #fff;
-			text-decoration: none;
-			}	
 		
-#barra1 ul li a:hover {
-	
-	
-	color: #1793d1;
-	background-color:#000;
-	transition: 0.3s, ease-in-out ;
-	
-	
-}
-
-#barra1 ul li a:active{
-	color: #1793d1;
-}
-
-
-
-aside.cadastro{float: right; padding-right: 20px ;padding-top: 40px;padding-left:1px;color:blue; }		
-#logo{
-	
-	vertical-align: middle;
-	width:562px;
-	height: 104px;
-	
-	
-   padding-left: 20px;
-
-
-}		
-header{
-   
-	background-color: #ffffff;
-}	
-
-a.link1 
-{
-text-decoration: none;
-color:blue;
-
-}
-a:hover.link1{text-decoration: underline;;}
-
-
-
-
-.but {
+.barra li {
 display: inline-block;
-background-color: #ccc;
-color: #444;
-padding: 10px 20px;
-text-decoration: none;
-box-sizing: border-box;
-font-family: Helvetica, Arial, sans-serif;
-font-size: 14px;
-border: 0px;
+padding: 30px 25px 12px;
+
 }
-h1{position: relative; top :70px; left:80px;}
+
+a.link{
+ color: #545454;
+ text-decoration: none;
+ font-family: Tahoma, Geneva,  sans-serif;
+
+}
+
+
+
+a:active.link{color: #0038ff;}
+a:hover.link{
+	color:  	#0038ff;
+	transition: color 0.3s ease-in-out;
+	
+}
+
