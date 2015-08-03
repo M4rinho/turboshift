@@ -43,7 +43,7 @@ a:hover.link{
 	
 }
 .bem-vindo{ background-color: #000; opacity: 0.2; position: absolute;width:100%; height:500px;top:18%;  z-index: 1;}
-.bem-vindo:hover{opacity: 0.9; transition: opacity linear 0.1s;}
+.bem-vindo:hover{opacity: 0.9; transition: opacity ease-in-out 0.1s;}
 .bem-vindo p{
 	color: #fff; 
 	margin-left: 0.1em;
