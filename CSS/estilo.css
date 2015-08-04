@@ -73,7 +73,7 @@ border: thin outset #000000;
 .destaque{
 
 position: absolute;
-top: 115%;
+top: 90%;
 left: 25%;
 
 
@@ -84,7 +84,7 @@ left: 25%;
 .destaque a:hover{opacity: 1.0; transition:opacity ease-in-out 0.2s;}
 .destaque-lista{list-style: none;}	
 .destaque-lista li{display: inline-block;padding-right: 250px;}
-.psa{position: absolute;top:-50%;left:13%; }
+.psa{position: absolute;top:100%;left:13%; }
 footer {
 			position: absolute;
    		bottom:-120%;
