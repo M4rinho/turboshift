@@ -17,13 +17,17 @@ body{overflow-x: hidden;background-color:#FFF; }
    border-bottom: medium dashed #333;
 
 }
+ul ul{display: none;}
 
-		
+li img:hover > .submenu{display: block;}
+.submenu li{display: block;}	
 .barra li {
 display: inline-block;
-padding: 30px 25px 12px;
+padding: 30px 15px 12px;
 
 }
+.user{opacity: 0.4;}
+.user:hover{opacity: 1.0; transition: opacity ease-in-out 0.4s;}
 
 a.link{
  color: #545454;
@@ -34,12 +38,10 @@ a.link{
 
 
 
-
-
-a:active.link{color: #0038ff;}
+a:active.link{color: #2196F3;}
 a:hover.link{
-	color:  	#0038ff;
-	transition: color 0.3s ease-in-out;
+	color:  	#2196F3;
+	transition: color 0.4s ease-in-out;
 	
 }
 .bem-vindo{ background-color: #000; opacity: 0.2; position: absolute;width:100%; height:500px;top:18%;  z-index: 1;}
@@ -49,7 +51,7 @@ a:hover.link{
 	margin-left: 0.1em;
 	text-shadow: 0.1em 0.1em 0.4em #000; 
 	font: 2.5em "Lucida Console", Monaco, monospace; 
-	
+	width: 1200px;
 	line-height:2.0;  
 	}
 a.buttonOrcamento{
@@ -91,7 +93,7 @@ footer {
    		bottom:-120%;
    		width:100%;
    		height:50%;
-   		background:#000;
+   		background:#ccc;
    		border-top: thin outset #000;
 
 }
