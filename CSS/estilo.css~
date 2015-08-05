@@ -106,7 +106,7 @@ footer {
 .conteudo-rodape{
 position:absolute;
 left: 35%;
-bottom: 20%;;
+bottom: 50%;;
 
 
 }
