@@ -36,7 +36,7 @@ public class TelaSplash extends JWindow {
         JLabel label = new JLabel(new ImageIcon("devmedia.gif"));
         JLabel copyrt = new JLabel
                 ("Copyright 2015, The CMMAC Group", JLabel.CENTER);
-        copyrt.setFont(new Font("Sans-Serif", Font.BOLD, 12));
+        copyrt.setFont(new Font("MonoSpace", Font.BOLD, 22));
         content.add(label, BorderLayout.CENTER);
         content.add(copyrt, BorderLayout.SOUTH);
         Color oraRed = new Color(156, 20, 20,  255);
